@@ -1,14 +1,70 @@
-<!doctype html>
-<html lang="en">
+<!Doctype html>
+<html>
 <head>
-  <meta charset="utf-8">
-  <title>Groc</title>
-  <base href="/">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
+
 <body>
-  <app-root></app-root>
+<nav class="navbar navbar-inverse">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-4">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+         
+        </div>
+	
+    
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbar-collapse-4">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+           
+            <li>
+              <a class="btn btn-default btn-outline btn-circle collapsed"  data-toggle="collapse" href="#nav-collapse4" aria-expanded="false" aria-controls="nav-collapse4">Login <i class=""></i> </a>
+            </li>
+            <li>
+            <a class="btn btn-default btn-outline btn-circle collapsed"  data-toggle="collapse" href="#nav-collapse4" aria-expanded="false" aria-controls="nav-collapse4">Register<i class=""></i> </a>
+          </li>
+          </ul>
+		</div>
+</nav>
+  <div class="wrapper">
+		<div class="sidebar-hotel">
+		<div class="side-in">
+		<div class ="logo" XOR-MART></div>
+		<div class="side-menu">
+			<ul>
+				
+                <li><a href="#">Masala</a></li>
+                <li><a href="#">Fruits</a></li>
+				<li><a href="#">Vegetables</a></li>
+				
+				<li><a href="#">Bakery</a></li>
+        <li><a href="#">Foodgrains</a></li>
+        <li><a href="#">Ready To Cook</a></li>
+				
+			</ul>
+		</div>
+		
+		</div>
+        </div>
+        <app-root></app-root>
+        <router-outlet></router-outlet>
+	
+	</div>
+	
 </body>
 </html>
